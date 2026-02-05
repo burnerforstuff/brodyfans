@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BrodyFans — Premium Fan Content</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="logo" href="index.html">BrodyFans</a>
+        <nav class="nav">
+          <a href="types.html">Types</a>
+          <a href="pricing.html">Pricing</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="about.html">About</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-inner">
+          <div class="hero-left">
+            <h1>BrodyFans</h1>
+            <p class="lead">A site about Brody and his curated fan collection. Subscribe for members-only content and updates.</p>
+            <div class="cta-row">
+              <a class="btn btn-primary" href="pricing.html">Subscribe</a>
+              <a class="btn" href="types.html">Browse Types</a>
+            </div>
+            <p style="margin-top:12px;color:var(--muted)">Featured: Brody and select fan models.</p>
+          </div>
+          <div class="hero-right">
+            <img class="hero-main-img" src="images/brody1.jpg" alt="Brody">
+            <img class="hero-thumb" src="images/brody2.jpg" alt="Brody 2">
+            <img class="hero-thumb" src="images/fan1.jpg" alt="Fan 1">
+            <img class="hero-thumb" src="images/brody3.jpg" alt="Brody 3">
+            <img class="hero-thumb" src="images/fan2.jpg" alt="Fan 2">
+            <img class="hero-thumb" src="images/boxfan1.jpg" alt="Box Fan">
+            <img class="hero-thumb" src="images/brody4.jpg" alt="Brody 4">
+            <img class="hero-thumb" src="images/fan3.jpg" alt="Fan 3">
+            <img class="hero-thumb" src="images/pedestalfan1.jpeg" alt="Pedestal Fan 1">
+            <img class="hero-thumb" src="images/brody5.jpg" alt="Brody 5">
+            <img class="hero-thumb" src="images/pedestalfan2.jpg" alt="Pedestal Fan 2">
+          </div>
+        </div>
+      </section>
+
+      <section class="featured container">
+        <h2>Featured Fan Types</h2>
+        <div class="card-grid">
+          <article class="card">
+            <img src="images/boxfan1.jpg" alt="Box fan">
+            <h3>Box Fans</h3>
+            <p>Compact and reliable for everyday use.</p>
+            <a class="link" href="types.html">More</a>
+          </article>
+          <article class="card">
+            <img src="images/pedestalfan2.jpg" alt="Pedestal fan">
+            <h3>Pedestal Fans</h3>
+            <p>Adjustable heights for flexible placement.</p>
+            <a class="link" href="types.html">More</a>
+          </article>
+          <article class="card">
+            <img src="images/fan1.jpg" alt="Compact fan">
+            <h3>Compact Fans</h3>
+            <p>Small form-factor models suitable for desks and small rooms.</p>
+            <a class="link" href="types.html">More</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="why container">
+        <h2>Why BrodyFans?</h2>
+        <ul class="features">
+          <li><strong>Exclusive:</strong> Members-only content.</li>
+          <li><strong>Curated:</strong> Hand-picked fan collections.</li>
+          <li><strong>Community:</strong> Member-focused updates and feedback.</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> BrodyFans.</p>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>

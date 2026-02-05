@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gallery — BrodyFans</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="logo" href="index.html">BrodyFans</a>
+        <nav class="nav">
+          <a href="types.html">Types</a>
+          <a href="pricing.html">Pricing</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="about.html">About</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="featured">
+        <h1>Gallery</h1>
+        <p class="lead">Curated snaps of Brody and fan models.</p>
+        <div class="gallery-grid">
+          <img src="images/brody1.jpg" alt="Brody 1">
+          <img src="images/brody2.jpg" alt="Brody 2">
+          <img src="images/brody3.jpg" alt="Brody 3">
+          <img src="images/brody4.jpg" alt="Brody 4">
+          <img src="images/brody5.jpg" alt="Brody 5">
+          <img src="images/fan1.jpg" alt="Fan 1">
+          <img src="images/fan2.jpg" alt="Fan 2">
+          <img src="images/fan3.jpg" alt="Fan 3">
+          <img src="images/boxfan1.jpg" alt="Box Fan">
+          <img src="images/pedestalfan1.jpeg" alt="Pedestal Fan 1">
+          <img src="images/pedestalfan2.jpg" alt="Pedestal Fan 2">
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> BrodyFans — Keep it breezy.</p>
+      </div>
+    </footer>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  </body>
+</html>
